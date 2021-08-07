@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for (let i = 0; i < value; i++) {
             array.push(randomNumber(10, 600));
         }
-        console.log(array);
+        // console.log(array);
         for (let i = 0; i < value; i++) {
             const val = document.createElement('div');
             val.style.height = `${array[i]}px`;
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // console.log(array);
                 }, i * 1000);
             }
-            console.log(array);
+            // console.log(array);
         }
     }
 
@@ -104,10 +104,10 @@ document.addEventListener('DOMContentLoaded', () => {
                             bar[rem[vy]].classList.remove('purple');
                         }
                     }, 1000);
-                    console.log(array);
+                    // console.log(array);
                 }, i * 1500);
             }
-            console.log(array);
+            // console.log(array);
         }
     }
 
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }, i * 1600);
             }
-            console.log(array);
+            // console.log(array);
         }
     }
 
@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 let box = [];
                 box.push(parseInt(value / 3));
                 box.push(parseInt(2 * (value / 3)));
-                console.log(box);
+                // console.log(box);
                 mergeSort(0, box[0], bar, 1);
                 mergeSort(box[0], box[1], bar, 0);
                 mergeSort(box[1], value, bar, 1);
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 box.push(parseInt(3 * (value / 6)));
                 box.push(parseInt(4 * (value / 6)));
                 box.push(parseInt(5 * (value / 6)));
-                console.log(box);
+                // console.log(box);
                 mergeSort(0, box[0], bar, 1);
                 mergeSort(box[0], box[1], bar, 0);
                 mergeSort(box[1], box[2], bar, 1);
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 box.push(parseInt(6 * (value / 9)));
                 box.push(parseInt(7 * (value / 9)));
                 box.push(parseInt(8 * (value / 9)));
-                console.log(box);
+                // console.log(box);
                 mergeSort(0, box[0], bar, 1);
                 mergeSort(box[0], box[1], bar, 0);
                 mergeSort(box[1], box[2], bar, 1);
@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 box.push(parseInt(9 * (value / 12)));
                 box.push(parseInt(10 * (value / 12)));
                 box.push(parseInt(11 * (value / 12)));
-                console.log(box);
+                // console.log(box);
                 mergeSort(0, box[0], bar, 1);
                 mergeSort(box[0], box[1], bar, 0);
                 mergeSort(box[1], box[2], bar, 1);
